@@ -1,16 +1,29 @@
-#
-# Archivarix Loader rules
-#
-
 # disable directory listing for security reasons
 Options -Indexes
 
-# redirect all requests to index.php loader
+# BEGIN Archivarix
+DirectoryIndex archivarix.php index.php index.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
-  RewriteRule ^index\.php$ - [L]
+  RewriteRule ^archivarix.php$ - [L]
+  RewriteRule ^index.php$ /archivarix.php [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.php [L]
+  RewriteRule . /archivarix.php [L]
 </IfModule>
+# END Archivarix
+
+
+
+# BEGIN WordPress
+# this will never happen
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
