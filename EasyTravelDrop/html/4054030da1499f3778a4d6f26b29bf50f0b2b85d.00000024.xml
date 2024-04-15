@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>WorkAndTravelUsa.info</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>https://workandtravelusa.info</link>
+	<description>Twoje żródło informacji o wyjazdach Work&#38;Travel USA</description>
+	<lastBuildDate>Tue, 16 Oct 2018 09:31:48 +0000</lastBuildDate>
+	<language>pl-PL</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.15</generator>
+
+<image>
+	<url>https://workandtravelusa.info/wp-content/uploads/2018/10/favicon.png</url>
+	<title>WorkAndTravelUsa.info</title>
+	<link>https://workandtravelusa.info</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Witaj, świecie!</title>
+		<link>https://workandtravelusa.info/witaj-swiecie/</link>
+				<comments>https://workandtravelusa.info/witaj-swiecie/#respond</comments>
+				<pubDate>Tue, 16 Oct 2018 09:31:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Bez kategorii]]></category>
+
+		<guid isPermaLink="false">http://wp-4-9-8.autoinstalator.eu/?p=1</guid>
+				<description><![CDATA[Witaj w WordPressie. To jest twój pierwszy wpis. Zmodyfikuj go lub usuń, a następnie rozpocznij pisanie!]]></description>
+								<content:encoded><![CDATA[<p>Witaj w WordPressie. To jest twój pierwszy wpis. Zmodyfikuj go lub usuń, a następnie rozpocznij pisanie!</p>
+]]></content:encoded>
+							<wfw:commentRss>https://workandtravelusa.info/witaj-swiecie/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>
